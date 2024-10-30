@@ -1,0 +1,98 @@
+* {padding: 0; margin: 0}
+header {width: 100%; margin: auto; background-color: white; height: 70px; }
+.kepala {width: 1180px; margin: auto;}
+.superb h1 {float: left; margin-top: 15px; color: black; text-decoration: none; width: 300px;}
+.superb h1 a{text-decoration: none; color: black;}  
+html {font-family: system-ui; }
+
+menu {float: right; padding: 10px 25px; margin-top: 15px;}
+
+menu ul li {float: left; list-style: none;}
+
+menu ul li a{padding: 10px 15px; text-decoration: none;
+    color: black; position: relative;
+}
+
+menu ul li ul {display: none;}
+menu ul li:hover > ul {display: block;z-index: 1;}
+menu ul li ul{ position: absolute;}
+menu ul li ul li {float: none;
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 100px;
+    background-color: white;
+    right: 160px;
+}
+menu ul li ul { position: absolute;}
+
+menu ul li img {width: 15px; height: 15px; margin-left: 15px;}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+body {background-color: #F4F6F3;}
+.beige {width: 1130px; margin: auto; background-color: white; margin-top: 55px; padding: 30px 25px; margin-bottom: 50px;}
+.beige h1{font-size: 35px; font-weight: 500;}
+.beige h3{font-size: 26px; margin-top: 5px; font-weight: 500;}
+label a {color: red;}
+.put input {width: 1130px; border: 1px solid gray; height: 40px; border-radius: 5px; margin-top: 5px;}
+.putt input {width: 1130px; border: 1px solid gray; height: 40px; border-radius: 5px; margin-top: 5px;}
+.butt {overflow: hidden; margin-top: 10px;}
+.butt input  {background-color: black; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 16px; font-weight: 600; margin-right: 5px;}
+.beige h4{margin-top: 10px; margin-bottom: 30px;}
+.beige h4 a {color: black; font-weight: 400;}
+
+/* FOOTER */
+footer {background-color: rgb(0, 0, 0); height: auto;}
+footer .footeratas {width: 1200px; margin: auto; position: relative; overflow: hidden; border-bottom: solid rgb(255, 255, 255) 1px;}
+footer .footeratas .kiri, .footeratas .tengah, .footeratas .kanan{
+  float: left; 
+  width: 380px; 
+  padding: 10px; 
+  height: 350px;
+  margin-top: 55px;
+}
+footer .footeratas .kiri h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footeratas .kiri .atas hr {color: rgb(255, 255, 255); width: 40px;}
+footer .footeratas .kiri p {font-size: 15px; margin-bottom: 8px; color: white; margin-top: 10px;}
+footer .footeratas .kiri .bawah img {height: 35px; width: 35px; border-radius: 1000px; padding: 5px; margin-top: 5px;}
+footer .footeratas .kiri .bawah img:hover {height: 38px; width: 38px;}
+
+footer .footeratas .tengah {overflow: hidden;}
+footer .footeratas .tengah h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footeratas .tengah hr {color: rgb(255, 255, 255); width: 40px;}
+footer .footeratas .tengah img {height: 45px; width: 45px;}
+footer .footeratas .tengah .news {float: left; margin-bottom: 10px; margin-top: 10px;}
+footer .footeratas .tengah .foto {float: left; margin-bottom: 5px; margin-right: 10px;}
+footer .footeratas .tengah .keterangan {float: left; font-size: 14px; color: white;}
+
+footer .footeratas .kanan {overflow: hidden; float: left}
+footer .footeratas .kanan h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footeratas .kanan hr {color: silver; width: 40px;}
+footer .footeratas .kanan input {width: 100%; border-radius: 4px; margin-left: 15px; float: left; outline: none; border: none;}
+.inputText {font-size: 17px;}
+footer .footeratas .kanan .form {float: left; display: flex; align-items: center; background-color: white; height: 40px; 
+  width: 250px; border-radius: 4px; border: 1px solid silver; border-radius: 2px; margin-top: 20px;}
+footer .footeratas .kanan .subscribe p {
+  color: black;
+  background-color: white; 
+  padding: 11px; 
+  width: 80px; 
+  text-align: center; 
+  border-radius: 3px;
+  margin-top: 21px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+footer .footeratas .kanan p {font-size: 14px; color: white; float: left; margin-top: 30px;}
+
+footer .footerbawah {color: silver; background-color: black; padding: 20px; text-align: center; font-size: 15px;}

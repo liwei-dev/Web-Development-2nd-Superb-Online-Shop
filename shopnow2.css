@@ -1,0 +1,166 @@
+* {padding: 0; margin: 0}
+header {width: 100%; margin: auto;}
+.kepala {width: 1180px; margin: auto; }
+.superb h1 {float: left; margin-top: 15px; color: black; text-decoration: none; width: 300px;}
+.superb h1 a{text-decoration: none; color: black;}  
+body {font-family: system-ui;}
+
+menu {float: right; padding: 10px 25px; margin-top: 15px;}
+
+menu ul li {float: left; list-style: none;}
+
+menu ul li a{padding: 10px 15px; text-decoration: none;
+    color: black; position: relative;
+}
+
+menu ul li ul {display: none;}
+menu ul li:hover > ul {display: block;z-index: 1;}
+menu ul li ul{ position: absolute;}
+menu ul li ul li {float: none;
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 100px;
+    background-color: white;
+    right: 160px;
+}
+menu ul li ul { position: absolute;}
+
+menu ul li img {width: 15px; height: 15px; margin-left: 15px;}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.container {background-color: #F4F6F3;}
+.beige {width: 1180px; margin: auto; overflow: hidden; background-color: #F4F6F3;}
+.left {float: left; width: 780px; margin-top: 50px; background-color: #F4F6F3;}
+.satul h4 {font-weight: 400; color: gray; float: left;}
+.satul h1 {font-size: 35px; margin-top: 20px;}
+.bla {overflow: hidden;}
+.satul a h4{color: black; float: left; margin-top: 12px; text-decoration: none; color: gray;}
+.satul select{float: right; font-weight: 400;width: 220px; border: 2px solid black;height: 40px; padding: 4px 20px; border-radius: 4px;}
+.satul h5 i {margin-left: 20px;}
+.atas {overflow: hidden;}
+.atas h4 a {color: gray; text-decoration: none; margin-right: 5px;}
+
+
+.dual {margin-top: 50px; overflow: hidden;}
+.dual img {width: 240px; margin-bottom: 15px;}
+.dual h5{font-size: 16px; font-weight: 620; margin-top: 2px;}
+.dual p {font-weight: 300; font-size: 14px;}
+.dual p s{color: gray;}
+.left .dual .adc{padding: 8px 15px; background-color: black; color: white; width: 90px; border-radius: 5px; text-decoration: none; }
+.left .dual .adc h4 a{color: white;text-decoration: none; }
+.duala{float: left;}
+.dualb{float: left; margin-left: 28px;}
+.dualc{float: left; margin-left: 28px;}
+
+.tigal {margin-top: 50px; overflow: hidden;}
+.tigal img {width: 240px; margin-bottom: 15px;}
+.tigal h5{font-size: 16px; font-weight: 620; margin-top: 2px;}
+.tigal p {font-weight: 300; font-size: 14px;}
+.tigal p s{color: gray;}
+.left .tigal .adc{padding: 8px 15px; background-color: black; color: white; width: 90px; border-radius: 5px; text-decoration: none; }
+.left .tigal .adc h4 a{color: white;text-decoration: none; }
+.tigala{float: left;}
+.tigalb{float: left; margin-left: 28px;}
+.tigalc{float: left; margin-left: 28px;}
+
+
+.right {float: right; width: 350px; background-color: white; margin-top: 50px;}
+.right h3{margin-top: 25px; margin-left: 15px; font-size: 22px; font-weight: 500;}
+.right .satur {width: 350px; overflow: hidden; margin-top: 30px; margin-left: 15px;}
+.right .duar {width: 350px; overflow: hidden; margin-top: 24px; margin-left: 15px;}
+.right .tigar {width: 350px; overflow: hidden; margin-top: 24px; margin-left: 15px;}
+.right .empatr {width: 350px; overflow: hidden; margin-top: 24px; margin-left: 15px;}
+.right img {width: 48px; height: 48px; float: left;}
+.right .satur img:hover{width: 50px; height: 50px;}
+.right .duar img:hover{width: 50px; height: 50px;}
+.right .tigar img:hover{width: 50px; height: 50px;}
+.right .empatr img:hover{width: 50px; height: 50px;}
+.right h4 {float: left; color: black; text-decoration: none; margin-top: 13px; margin-left: 10px; font-weight: 450; font-size: 16px;}
+.right h4:hover{color: #1f104f; font-size: 17px;}
+.limar h3 {margin-top: 58px; font-size: 21px;}
+.limar .search {margin-left: 15px; margin-top: 10px; overflow: hidden;}
+.limar .search input{height: 18px; width: 250px; border-radius: 3px; float: left; margin-top: 0;}
+.limar .search a {background-color: black; color: white; padding: 8px 12px; border-radius: 4px; float: left; margin-left: 5px;}
+
+.enamr h3 {margin-top: 45px;}
+.enamr img{width: 350px;}
+.angka {overflow: hidden; width: 320px; margin: auto;}
+.angka input{float: left; font-size: 14px; font-weight: 400; padding: 0 0 0 7px; border-radius: 0;}
+.angka a input{width: 85px; float: right; padding: 0 10px 0 7px; text-align: left; border-radius: 0;}
+
+.tujuhr h3 {margin-top: 40px; margin-bottom: 5px;}
+.tujuhr .foto1 {margin-left: 10px;}
+.tujuhr img{width: 60px; height: 60px; margin-left: 5px; border-radius: 5px; margin-bottom: 30px;}
+.tujuhr img:hover{opacity: 0.8; transition: width 2ms, height 4ms;}
+
+.page {margin: auto; width: 780px; overflow: hidden; margin-top: 20px; margin-bottom: 30px;}
+.page .one{background-color: black; float: left; padding: 10px 15px; color: white; font-size: 20px; margin-left: 320px;}
+.page h5 a{background-color: white; float: left; margin-left: 10px; padding: 10px 15px; border: 0.1px solid gray;
+  font-size: 16px; text-decoration: none; color: black;}
+
+  .ge {margin: auto; width: 780px; overflow: hidden; margin-top: 20px; margin-bottom: 30px;}
+  .ge .one{background-color: black; float: left; padding: 11px 15px; color: white; font-size: 20px; margin-left: 10px;}
+  .ge .two{margin-left: 320px;}
+  .ge h5 a{margin-left: 10px;background-color: white; float: left; padding: 10px 15px; border: 0.1px solid gray;
+    font-size: 16px; text-decoration: none; color: black;}
+  
+
+
+    footer {background-color: rgb(0, 0, 0); height: auto;}
+    footer .footeratas {width: 1200px; margin: auto; position: relative; overflow: hidden; border-bottom: solid rgb(255, 255, 255) 1px;}
+    footer .footeratas .kiri, .footeratas .tengah, .footeratas .kanan{
+      float: left; 
+      width: 380px; 
+      padding: 10px; 
+      height: 350px;
+      margin-top: 55px;
+    }
+    footer .footeratas .kiri h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+    footer .footeratas .kiri .atas hr {color: rgb(255, 255, 255); width: 40px;}
+    footer .footeratas .kiri p {font-size: 15px; margin-bottom: 8px; color: white; margin-top: 10px;}
+    footer .footeratas .kiri .bawah img {height: 35px; width: 35px; border-radius: 1000px; padding: 5px; margin-top: 5px;}
+    footer .footeratas .kiri .bawah img:hover {height: 38px; width: 38px;}
+    
+    footer .footeratas .tengah {overflow: hidden;}
+    footer .footeratas .tengah h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+    footer .footeratas .tengah hr {color: rgb(255, 255, 255); width: 40px;}
+    footer .footeratas .tengah img {height: 45px; width: 45px;}
+    footer .footeratas .tengah .news {float: left; margin-bottom: 10px; margin-top: 10px;}
+    footer .footeratas .tengah .foto {float: left; margin-bottom: 5px; margin-right: 10px;}
+    footer .footeratas .tengah .keterangan {float: left; font-size: 14px; color: white;}
+    
+    footer .footeratas .kanan {overflow: hidden; float: left}
+    footer .footeratas .kanan h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+    footer .footeratas .kanan hr {color: silver; width: 40px;}
+    footer .footeratas .kanan input {width: 100%; border-radius: 4px; margin-left: 15px; float: left; outline: none; border: none;}
+    .inputText {font-size: 17px;}
+    footer .footeratas .kanan .form {float: left; display: flex; align-items: center; background-color: white; height: 40px; 
+      width: 250px; border-radius: 4px; border: 1px solid silver; border-radius: 2px; margin-top: 20px;}
+    footer .footeratas .kanan .subscribe p {
+      color: black;
+      background-color: white; 
+      padding: 11px; 
+      width: 80px; 
+      text-align: center; 
+      border-radius: 3px;
+      margin-top: 21px;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+    footer .footeratas .kanan p {font-size: 14px; color: white; float: left; margin-top: 30px;}
+    
+    footer .footerbawah {color: silver; background-color: black; padding: 20px; text-align: center; font-size: 15px;}
+
+   

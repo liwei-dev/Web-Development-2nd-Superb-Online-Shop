@@ -1,0 +1,205 @@
+* {padding: 0; margin: 0; font-family: system-ui}
+
+header {height: 75px; margin: auto; position: relative; background-color: white;}
+header .containermenu {width: 1200px; margin: auto; height: auto;}
+
+.containeratas {width: 1200px; margin: auto; position: relative;}
+menu {height: 60px; width: auto;}
+menu .kiri {float: left; margin-top: 15px;}
+menu .kanan {float: right; padding: 25px;}
+nav ul li { float: left; list-style: none;}
+nav ul li a {margin-right: 5px; text-decoration: none; padding: 10px 15px; color: black; }
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display: block; z-index: 1;}
+nav ul li ul {position: absolute;}
+nav ul li ul li {float: none; font-size: 14px; position: relative; padding: 18px 80px 18px 5px; width: auto; background-color: rgb(255, 255, 255); right:98px; top: 25px;}
+menu img {height:20px; width: 20px; margin-top: -10px; margin-left: 5px;}
+
+/* PALING ATAS LIVINGROOM */
+article .livingroom img {width: 100%; position: relative; height: 500px; filter: brightness(80%); margin-top: 15px;}
+article .livingroom .keterangan {
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  top: 12%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+}
+article .livingroom .keterangan p {font-size: 20px; margin-top: 10px;}
+article .livingroom .shopnow {
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 18px;
+  background-color: black;
+  padding: 6px 3px 1px 3px;
+  top: 17%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-weight: bold;
+}
+
+/* 3 KOLOM */
+article .kolom3 {margin-top: 14px; width: 100%;}
+article .kolom3 .foto {width: 375px; height: 300px; position: relative; float: left; }
+article .kolom3 .foto img {height: 300px; width: 390px; filter: brightness(80%)}
+article .kolom3 .kiri .foto {margin-right: 30px;}
+article .kolom3 .keterangan {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 48%; 
+  left: 52%; 
+  transform: translate(-50%, -50%);
+  padding: auto;
+}
+article .kolom3 .keterangan p {margin-top: 10px;}
+
+/* POPULAR */ 
+article .popular {margin-top: 390px;}
+article .popular .title {float: left; font-size: 26px; width: 1000px;}
+article .popular .view {float: right; font-size: 15px; font-weight: bold; padding : 8px 18px 8px 18px; background: black; border-radius: 3px; width: 125px;}
+
+/* 6 FOTO */
+article .products {overflow: hidden; width: 1200px;}
+article .products .foto1 {width: 375px; height: 370px; float: left;}
+article .products .foto1 img {width: 380px;; height: 370px; margin-bottom: 15px;}
+article .products .foto1 p {margin-top: 2px;}
+article .products .kiri .foto1 {margin: 20px 37px 0 0;}
+article .products .kanan .foto1 {margin: 20px 0 40px 0;}
+article .products .bawah .foto1 {margin-top: 120px; margin-bottom: 100px;}
+
+/* BAGIAN CS*/
+.container1 {overflow: hidden; background-color: #F4F6F3; height: auto; margin-top: 90px;}
+.banner {background-color: #F4F6F3; width: 1200px; margin: auto; position: relative; height: auto;} 
+.banner .icon {width: 400px; text-align: center; float:left; margin: 80px 0 80px 0;}
+.banner .icon img {width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: solid black 3px}
+.banner .icon h1 {font-size: 22px; margin-top: 10px;}
+.banner .icon p {font-size: 16px; margin-top: 3px;}
+
+/* BIODATA */
+.biodata {height: auto; justify-content: center; display: flex;}
+.biodata .teks {width: 450px; float:right; padding-top: 150px; margin-right: 20px;}
+.biodata .teks p {margin-top: 15px; line-height: 1.5; color: rgb(33, 60, 97); font-size: 16px;}
+.biodata .teks h1 {color: rgb(33, 60, 97); font-size: 30px;}
+.biodata .teks .judul {font-size: 20px;}
+.biodata .teks .more {
+  font-size: 15px;
+  background-color: black; 
+  width: 90px; 
+  padding: 8px 10px 11px 18px;
+  margin-top: 25px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.biodata .foto {width: 760px; padding-top: 80px; margin-bottom: 80px;}
+.biodata .foto img {width: 600px; height: 440px; float: right; filter: brightness(90%); border-radius: 3px;}
+
+/* SISIPAN UTS NOMOR 1 */
+.limat{overflow: hidden; background-color: rgb(5, 247, 195); width: 1230px; margin: auto; margin-top: 40px; margin-bottom: 70px;}
+.limat h2 {float: left; width: 700px; padding: 70px 0 0px 0; color: white; font-size: 40px; margin-left: 70px;}
+.limat h4 {float: left; width: 700px; padding: 0px 0 70px 0; color: white; margin: auto; margin-left: 70px;}
+
+.form {float: right; display: inline-flex; align-items: center; color: rgb(4, 254, 216); height: 40px; 
+  width: 250px; border-radius: 4px; border: 1px solid rgb(249, 248, 248); border-radius: 2px; margin-right: 90px; padding-bottom: 15px 25px; font-size: 40px;}
+
+/* BAGIAN TESTIMONI */
+.container2 {overflow: hidden; background-color: #F4F6F3; height: 575px; position: relative;}
+.testimoni {width: 1200px; margin: auto; position: relative; height: auto; margin-top: 75px;}
+.testimoni .judul {text-align: center}
+.testimoni .judul p {font-size: 20px; margin-bottom: 5px;}
+.testimoni .judul h1 {font-size: 29px; color: rgb(15, 51, 85);}
+
+
+.testimoni .testi {display: flex; justify-content: center; align-items: center; margin-top: 40px;}
+.testimoni .testi .putih {float: left; width: 310px; height: 210px; background-color: white; border-radius: 6px; padding: 33px;}
+.testimoni .testi .hitam {float: left; width: 310px; height: 210px; background-color: black; border-radius: 6px; padding: 33px; margin-left: 18px; margin-right: 18px;}
+.testimoni .testi img {height: 60px; width: 60px; border-radius: 1000px;}
+.testimoni .testi p {line-height: 1.75; margin-bottom: 15px;}
+.testimoni .testi .profile {float: left; margin-top: 5px;}
+.testimoni .testi .nama {float: left; margin-left: 15px; margin-top: 5px;}
+
+.containeruts2 {background-color: rgb(244, 247, 247);}
+.beige h2 {float: left; width: 880px; margin-top: 50px; background-color: #f8f8f8; margin-left: 220px;}
+
+.beige {width: 1280px; margin: auto; overflow: hidden; background-color: #F4F6F3;}
+
+
+.dual {margin-top: 50px; overflow: hidden; margin-left: 340px;}
+.dual img {width: 240px; margin-bottom: 15px;}
+.dual h5{font-size: 16px; font-weight: 620; margin-top: 2px;}
+.dual p {font-weight: 300; font-size: 14px;}
+.dual p s{color: gray;}
+.left .dual .adc{padding: 8px 15px; background-color: black; color: white; width: 90px; border-radius: 5px; text-decoration: none; }
+.left .dual .adc h4 a{color: white;text-decoration: none; }
+.duala{float: left;}
+.dualb{float: left; margin-left: 28px;}
+.dualc{float: left; margin-left: 28px;}
+
+.tigal {margin-top: 50px; overflow: hidden; margin-left: 340px;}
+.tigal img {width: 240px; margin-bottom: 15px;}
+.tigal h5{font-size: 16px; font-weight: 620; margin-top: 2px;}
+.tigal p {font-weight: 300; font-size: 14px;}
+.tigal p s{color: gray;}
+.left .tigal .adc{padding: 8px 15px; background-color: black; color: white; width: 90px; border-radius: 5px; text-decoration: none; }
+.left .tigal .adc h4 a{color: white;text-decoration: none; }
+.tigala{float: left;}
+.tigalb{float: left; margin-left: 28px;}
+.tigalc{float: left; margin-left: 28px;}
+
+/* FOOTER */
+footer {background-color: rgb(0, 0, 0); height: auto;}
+footer .footeratas {width: 1200px; margin: auto; position: relative; overflow: hidden; border-bottom: solid rgb(255, 255, 255) 1px;}
+footer .footeratas .kiri, .footeratas .tengah, .footeratas .kanan{
+  float: left; 
+  width: 380px; 
+  padding: 10px; 
+  height: 350px;
+  margin-top: 55px;
+}
+footer .footeratas .kiri h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footeratas .kiri .atas hr {color: rgb(255, 255, 255); width: 40px;}
+footer .footeratas .kiri p {font-size: 15px; margin-bottom: 8px; color: white; margin-top: 10px;}
+footer .footeratas .kiri .bawah img {height: 35px; width: 35px; border-radius: 1000px; padding: 5px; margin-top: 5px;}
+footer .footeratas .kiri .bawah img:hover {height: 38px; width: 38px;}
+
+footer .footeratas .tengah {overflow: hidden;}
+footer .footeratas .tengah h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footeratas .tengah hr {color: rgb(255, 255, 255); width: 40px;}
+footer .footeratas .tengah img {height: 45px; width: 45px;}
+footer .footeratas .tengah .news {float: left; margin-bottom: 10px; margin-top: 10px;}
+footer .footeratas .tengah .foto {float: left; margin-bottom: 5px; margin-right: 10px;}
+footer .footeratas .tengah .keterangan {float: left; font-size: 14px; color: white;}
+
+footer .footeratas .kanan {overflow: hidden; float: left}
+footer .footeratas .kanan h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footeratas .kanan hr {color: silver; width: 40px;}
+footer .footeratas .kanan input {width: 100%; border-radius: 4px; margin-left: 15px; float: left; outline: none; border: none;}
+.inputText {font-size: 17px;}
+footer .footeratas .kanan .form {float: left; display: flex; align-items: center; background-color: white; height: 40px; 
+  width: 250px; border-radius: 4px; border: 1px solid silver; border-radius: 2px; margin-top: 20px;}
+footer .footeratas .kanan .subscribe p {
+  color: black;
+  background-color: white; 
+  padding: 11px; 
+  width: 80px; 
+  text-align: center; 
+  border-radius: 3px;
+  margin-top: 21px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+footer .footeratas .kanan p {font-size: 14px; color: rgb(246, 246, 245); float: left; margin-top: 30px;}
+
+footer .footertengah {overflow: hidden; background-color: rgb(248, 249, 244); width: 1230px; margin: auto; margin-top: 40px; margin-bottom: 70px;}
+footer .footertengah .utsnmr3 h3 {float: left; width: 700px; color: rgb(95, 3, 255); font-size: 40px; margin-left: 550px; font-size: 20px; margin-top: 40px;}
+footer .footertengah .utsnmr3 h2 {float: left; width: 700px; color: rgb(4, 4, 4); margin-left: 450px;}
+footer .footertengah .talkto { float: right; margin-right: 600px; background-color: blue; margin-bottom: 20px; margin-top: 10px; margin-bottom: 60px; padding: 6px 3px 1px 3px; text-align: center;}
+
+footer .footerbawah {color: silver; background-color: black; padding: 20px; text-align: center; font-size: 15px;}
